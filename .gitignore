@@ -1,0 +1,6 @@
+.netrwhist
+.DS_Store
+
+config/nvim/plugged
+config/nvim/autoload
+config/nvim/undodir
