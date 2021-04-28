@@ -2,7 +2,7 @@
 " General Vim Settings
 " -------------------- 
 
-colorscheme gruvbox   " themes are located in nvim/rcfiles/themes
+colorscheme gruvbox   " themes are located in nvim/rcplugins/colorschemes
 
 syntax on
 filetype plugin indent on

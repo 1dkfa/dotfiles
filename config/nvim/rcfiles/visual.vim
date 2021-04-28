@@ -22,3 +22,8 @@ set diffopt+=vertical
 highlight VertSplit guibg=NONE
 highlight NormalFloat guifg=#999999 guibg=#222222
 hi Pmenu guibg=#222222 guifg=#999999
+
+" make comments and HTML attributes italic
+highlight Comment cterm=italic term=italic gui=italic
+highlight htmlArg cterm=italic term=italic gui=italic
+highlight xmlAttrib cterm=italic term=italic gui=italic
