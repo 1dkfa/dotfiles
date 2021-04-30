@@ -42,10 +42,12 @@ onoremap <C-@> <Esc>
 cnoremap <C-@> <C-c>
 inoremap <C-@> <Esc>
 
-" quick sourcing of the current file, allowing for quick vimrc testing
+" quick sourcing of .vimrc, allowing for quick testing
 nnoremap <leader>sop :so ~/.config/nvim/init.vim<cr>
 " open dotfiles
 nnoremap <leader>df :Files ~/dotfiles<cr>
+" edit gitconfig
+nmap <leader>eg :e! ~.gitconfig<cr>
 " :PlugInstall
 nmap <leader>bi :PlugInstall<cr>
 
@@ -55,6 +57,12 @@ nnoremap Q @q
 " swap 0 and ^
 nnoremap 0 ^
 nnoremap ^ 0
+
+" better window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " :write file
 nnoremap <leader><leader> :w<cr>

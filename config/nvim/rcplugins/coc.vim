@@ -15,6 +15,7 @@ let g:coc_global_extensions = [
         \ 'coc-pairs',
         \ 'coc-sh',
         \ 'coc-vimlsp',
+        \ 'coc-highlight',
         \ 'coc-emmet',
         \ 'coc-prettier',
         \ 'coc-ultisnips',

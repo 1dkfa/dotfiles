@@ -21,7 +21,8 @@
     "json",
     "typescriptreact",
     "javascriptreact",
-    "html"
+    "html",
+    "css"
   ],
   "explorer.icon.enableNerdfont": true,
   "explorer.sources": [
@@ -34,7 +35,7 @@
   "explorer.git.icon.status.unmerged": "═",
   "explorer.git.icon.status.untracked": "?",
   "explorer.git.icon.status.modified": "✹",
-  "explorer.git.icon.status.ignored": "☒",
+  "explorer.git.icon.status.ignored": "",
   "explorer.openAction.for.directory": "expandOrCollapse",
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {

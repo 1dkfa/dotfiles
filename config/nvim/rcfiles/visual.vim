@@ -3,7 +3,7 @@
 " ---------------
 
 " make it obvious where 80 characters is
-set textwidth=80
+set textwidth=81
 set colorcolumn=+1
 set signcolumn=yes
 
