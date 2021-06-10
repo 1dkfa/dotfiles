@@ -2,4 +2,4 @@
 " golden-ratio
 " ------------
 
-Plug 'roman/golden-ratio'
+" Plug 'roman/golden-ratio'

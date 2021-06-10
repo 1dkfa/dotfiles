@@ -7,9 +7,6 @@ set textwidth=81
 set colorcolumn=+1
 set signcolumn=yes
 
-" automatically rebalance windows on vim resize
-autocmd VimResized * GoldenRatioResize
-
 " open new split panes to right and bottom
 set splitbelow
 set splitright

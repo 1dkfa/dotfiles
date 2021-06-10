@@ -11,7 +11,7 @@ vmap < <gv
 vmap > >gv
 
 " remap esc to exit insert mode with jk
-inoremap jk <esc>
+" inoremap jk <esc>
 
 " switch between current and last buffer
 nmap <leader>. <c-^>
@@ -42,7 +42,7 @@ onoremap <C-@> <Esc>
 cnoremap <C-@> <C-c>
 inoremap <C-@> <Esc>
 
-" quick sourcing of .vimrc, allowing for quick testing
+" source init.vim
 nnoremap <leader>sop :so ~/.config/nvim/init.vim<cr>
 " open dotfiles
 nnoremap <leader>df :Files ~/dotfiles<cr>
@@ -63,6 +63,15 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+nnoremap <A-h> <C-w>5<
+nnoremap <A-j> <C-w>5+
+nnoremap <A-k> <C-w>5-
+nnoremap <A-l> <C-w>5>
+nnoremap <A-=> <C-w>=
+
+" close current file
+nnoremap <leader>q :q<cr>
 
 " :write file
 nnoremap <leader><leader> :w<cr>

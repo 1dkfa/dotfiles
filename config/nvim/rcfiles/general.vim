@@ -2,8 +2,6 @@
 " General Vim Settings
 " --------------------
 
-colorscheme nord            " schemes are located in nvim/rcplugins/colorschemes
-
 syntax on
 filetype plugin indent on
 
@@ -30,6 +28,8 @@ set encoding=utf-8          " the encoding displayed
 set fileencoding=utf-8      " the encoding written to file
 set updatetime=300          " faster completion
 set termguicolors           " enable 24-bit rgb color
+
+colorscheme xcodedarkhc     " schemes are located in nvim/rcplugins/colorschemes
 
 " backup
 set noswapfile

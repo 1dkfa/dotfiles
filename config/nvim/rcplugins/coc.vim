@@ -5,23 +5,24 @@
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 let g:coc_global_extensions = [
-        \ 'coc-css',
-        \ 'coc-json',
-        \ 'coc-tsserver',
-        \ 'coc-git',
+        \ 'coc-explorer',
+        \ 'coc-diagnostic',
         \ 'coc-eslint',
         \ 'coc-tslint-plugin',
-        \ 'coc-phpls',
+        \ 'coc-prettier',
+        \ 'coc-emmet',
+        \ 'coc-tsserver',
+        \ 'coc-git',
+        \ 'coc-html',
         \ 'coc-pairs',
+        \ 'coc-css',
+        \ 'coc-json',
+        \ 'coc-phpls',
         \ 'coc-sh',
         \ 'coc-vimlsp',
-        \ 'coc-highlight',
-        \ 'coc-emmet',
-        \ 'coc-prettier',
-        \ 'coc-ultisnips',
-        \ 'coc-explorer',
-        \ 'coc-diagnostic'
+        \ 'coc-styled-components'
         \ ]
+
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " coc-prettier
@@ -52,7 +53,7 @@ nmap <silent> <leader>c <Plug>(coc-rename)
 
 " Remap for format selected region
 xmap <leader>f  <Plug>(coc-format-selected)
-" nmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 
 " organize imports
 command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')

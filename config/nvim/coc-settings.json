@@ -18,11 +18,11 @@
     "javascript",
     "javascript.jsx",
     "typescript.tsx",
-    "json",
     "typescriptreact",
     "javascriptreact",
     "html",
-    "css"
+    "css",
+    "json"
   ],
   "explorer.icon.enableNerdfont": true,
   "explorer.sources": [
@@ -39,7 +39,8 @@
   "explorer.openAction.for.directory": "expandOrCollapse",
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"]
+    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+    "E": "open:vsplit"
   },
   "eslint.autoFixOnSave": false,
   "diagnostic-languageserver.filetypes": {
