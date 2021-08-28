@@ -20,7 +20,8 @@ let g:coc_global_extensions = [
         \ 'coc-phpls',
         \ 'coc-sh',
         \ 'coc-vimlsp',
-        \ 'coc-styled-components'
+        \ 'coc-styled-components',
+        \ 'coc-highlight'
         \ ]
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
