@@ -4,3 +4,4 @@
 config/nvim/plugged
 config/nvim/autoload
 config/nvim/undodir
+config/nvim/undodir-old

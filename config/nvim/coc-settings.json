@@ -22,7 +22,8 @@
     "javascriptreact",
     "html",
     "css",
-    "json"
+    "json",
+    "php"
   ],
   "explorer.icon.enableNerdfont": true,
   "explorer.sources": [

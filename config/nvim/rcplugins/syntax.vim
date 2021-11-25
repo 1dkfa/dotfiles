@@ -1,6 +1,6 @@
-" ----------
-" javascript
-" ----------
+" ------
+" syntax
+" ------
 
 Plug 'yuezk/vim-js'                       " javascript syntax highlight
 Plug 'MaxMEllon/vim-jsx-pretty'           " react syntax highlight
