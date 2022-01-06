@@ -3,8 +3,8 @@
 " --------
 
 " move between wrapped lines, rather than jumping over wrapped segments
-nmap j gj
-nmap k gk
+" nmap j gj
+" nmap k gk
 
 " keep visual selection when indenting/outdenting
 vmap < <gv
@@ -23,8 +23,8 @@ vnoremap . :normal .<cr>
 nnoremap <leader>i :set cursorline!<cr>
 
 " scroll the viewport faster
-nnoremap <C-e> 3<C-e>
-nnoremap <C-y> 3<C-y>
+nnoremap <C-e> 5<C-e>
+nnoremap <C-y> 5<C-y>
 
 " open current buffer in a new tab
 nmap <silent> gTT :tab sb<cr>
