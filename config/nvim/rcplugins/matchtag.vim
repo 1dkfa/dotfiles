@@ -1,5 +1,0 @@
-" --------
-" MatchTag
-" --------
-
-Plug 'gregsexton/MatchTag'
