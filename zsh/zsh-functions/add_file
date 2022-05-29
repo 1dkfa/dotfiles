@@ -1,0 +1,3 @@
+function add_file() {
+    [ -f "$ZSH/$1" ] && source "$ZSH/$1"
+}
