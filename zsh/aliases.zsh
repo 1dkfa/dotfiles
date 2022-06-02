@@ -54,6 +54,7 @@ alias trs='tmux rename-session -t'
 alias glg='git log --graph --abbrev-commit --decorate --format=format:'\''%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n'\'''\''          %C(white)%s%C(reset)%n'\'''\''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'\'''
 
 # miscellaneous
+alias reload!='RELOAD=1 source ~/.zshrc'
 alias mvwp='mv ~/Downloads/*.png ~/iCloud/Pictures/wallpapers ; echo "All .PNG files from ~/Downloads moved to ~/iCloud/Pictures/wallpapers"'
 alias caff='caffeinate -disu &; caff=$!; echo "caffeinate'\''s PID ($caff) has been declared to variable \$caff"'
 alias tsm='transmission-remote'
