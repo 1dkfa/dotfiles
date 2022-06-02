@@ -52,6 +52,8 @@ return packer.startup(function(use)
 	use "nvim-lualine/lualine.nvim"
 	use "moll/vim-bbye"
 	use "akinsho/toggleterm.nvim"
+	use "lewis6991/impatient.nvim"
+	use "goolord/alpha-nvim"
 
 	-- Colorschemes
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
