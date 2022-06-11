@@ -1,4 +1,3 @@
-
 # completion
 setopt NO_LIST_BEEP
 setopt MENU_COMPLETE
