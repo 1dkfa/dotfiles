@@ -15,7 +15,7 @@ local async_formatting = function(bufnr)
 	vim.lsp.buf_request(
 		bufnr,
 		"textDocument/formatting",
-		{ textDocument = { uri = vim.uri_from_bufnr(bufnr) }, options = { insertSpaces = false } },
+		{ textDocument = { uri = vim.uri_from_bufnr(bufnr) }, options = { insertSpaces = true, tabSize = 2 } },
 		function(err, res, ctx)
 			if err then
 				local err_msg = type(err) == "string" and err or err.message
@@ -43,9 +43,10 @@ end
 null_ls.setup({
 	debug = false,
 	sources = {
-		formatting.prettier.with({ extra_args = {} }),
+		formatting.eslint.with({ extra_args = {} }),
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
+		formatting.rustfmt,
 		-- diagnostics.flake8
 	},
 	on_attach = function(client, bufnr)
